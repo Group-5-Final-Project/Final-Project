@@ -1,1 +1,13 @@
 # Vaccine Sentiment Analysis 💉
+
+## PROJECT OVERVIEW
+
+## THE TEAM
+
+## TOOLS & RESOURCES
+
+## THE DATA
+
+## MACHINE LEARNING MODEL
+
+## DATABASE
