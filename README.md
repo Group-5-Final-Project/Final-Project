@@ -2,7 +2,11 @@
 
 ## PROJECT OVERVIEW
 
+The Coronavirus pandemic has regular discourse. Anti-vax sentiments well predate COVID, however
+
 ## THE TEAM
+
+[Divyanshu Bisht](https://github.com/div1085) | [Farwa Ali](https://github.com/farwaali08) | [Sangeetha Praveen Kumar](https://github.com/praveen240881)
 
 ## TOOLS & RESOURCES
 
