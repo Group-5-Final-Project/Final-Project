@@ -2,7 +2,9 @@
 
 ## PROJECT OVERVIEW
 
-The Coronavirus pandemic has regular discourse. Anti-vax sentiments well predate COVID, however
+The emergence of the Coronavirus pandemic has normalized vaccines to become a part of everyday discourse, as global efforts to increase vaccination rates continue. Considered as having an integral role in managing the pandemic, governments, employers, and other organizations have either implemented or considered vaccine mandates. This has possibly become the most contentious topic in the last couple of years.
+
+As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well predate COVID, however given how pervasive vaccine discourse has been, they seem to be on the rise. Understanding levels of vaccine hesitance is importance
 
 ## THE TEAM
 
