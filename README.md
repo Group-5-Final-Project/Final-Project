@@ -9,7 +9,7 @@ As expected, there are varying opinions about vaccines, which range from their s
 For this project, we took to Twitter to gather vaccine sentiments from the beginning of the pandemic to present, in an effort to address the following questions:
 
 * What are the sentiments towards vaccines?
-  * Generally positive or generally negative? 
+  * Positive, negative, or neutral
 * How have these sentiments changed throughout the course of the pandemic, if at all?
   * Do pandemic milestones (e.g. waves, mandates, laws, etc.) impact opinions? 
 * What word associations are found with #vaccine?
@@ -44,9 +44,9 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 
 ### CODE/NOTEBOOKS
 
-## DATABASE
-
 ## MACHINE LEARNING MODEL
+
+## DATABASE
 
 ## DASHBOARD
 
