@@ -50,8 +50,6 @@ Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-o
 
 ## MACHINE LEARNING MODEL
 
-<<<<<<< HEAD
-=======
 ```X = []
 Y = []
 for idx in data.index:
@@ -65,16 +63,8 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
 labels = ['Negative','Neutral', 'Positive']
 ```
 
->>>>>>> branch_db
 ## DATABASE
 
 ## DASHBOARD
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149342404-364b67d3-54ff-4646-af82-28fee2670027.jpg)
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> branch_db
