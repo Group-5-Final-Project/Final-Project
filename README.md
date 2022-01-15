@@ -19,7 +19,7 @@ Data extracted from Twitter will be analyzed using Natural Language Processing (
 
 [Divyanshu Bisht](https://github.com/div1085) | [Farwa Ali](https://github.com/farwaali08) | [Sangeetha Praveen Kumar](https://github.com/praveen240881)
 
-The team members have not been assigned specific 'circle', 'square', or 'triangle' roles. All members are working collaboratively on each task, and each member has their own branch.
+The team members have not been assigned specific 'circle', 'square', or 'triangle' roles. All members are working collaboratively on each task, and each member has their own branch. The team communicates primarily through Slack, but also meets at least once a week via Zoom.
 
 ## TOOLS & RESOURCES
 
