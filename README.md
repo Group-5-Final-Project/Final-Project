@@ -44,10 +44,9 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 
 ### CODE/NOTEBOOKS
 
+## DATABASE
 
 ## MACHINE LEARNING MODEL
-
-## DATABASE
 
 ## DASHBOARD
 
