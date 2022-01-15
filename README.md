@@ -41,6 +41,8 @@ Data will be extracted from the [Twitter API](https://developer.twitter.com/en),
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
 
+### CODE/NOTEBOOKS
+
 
 ## MACHINE LEARNING MODEL
 
