@@ -49,7 +49,7 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 ![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ee3095e1487ec3f1dd9514745f43cfb4e7e41181/Pipeline.jpg)
 
 > Above is a high-level view of the project components.
-> Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html)
+> Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html).
  
 
 ## MACHINE LEARNING MODEL
