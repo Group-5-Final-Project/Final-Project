@@ -20,7 +20,7 @@ Data extracted from Twitter will be analyzed using Natural Language Processing (
 
 [Divyanshu Bisht](https://github.com/div1085) | [Farwa Ali](https://github.com/farwaali08) | [Sangeetha Praveen Kumar](https://github.com/praveen240881)
 
-The team members have not been assigned specific 'circle', 'square', or 'triangle' roles. All members are working collaboratively on each task, and each member has their own branch. The team communicates primarily through Slack, but also meets at least once a week via Zoom.
+The team members have not been assigned specific 'circle', 'square', or 'triangle' roles. All members are working collaboratively on each task, and each member has their own branch. The team communicates primarily through Slack, but also meet at least once a week via Zoom.
 
 ## TOOLS & RESOURCES
 
@@ -36,7 +36,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ### THE DATA
 
-Data will be extracted from the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets containing **#vaccine** from the start of the pandemic (March 2020) to present.
+Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets containing **#vaccine** from the start of the pandemic (around March 2020) to present.
 
 [Tweet Data](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet)
 
