@@ -13,7 +13,7 @@ For this project, we took to Twitter to gather vaccine sentiments from the begin
   * Do pandemic milestones (e.g. waves, mandates, etc.) impact opinions? 
 * What word associations are found with #vaccine?
 
-Data extracted from Twitter will be analyzed using Natural Language Processing (NLP), and the findings will visualized on a custom dashboard.
+Data extracted from Twitter will be analyzed using Natural Language Processing (NLP), and the findings will be visualized on a custom dashboard.
 
 ## THE TEAM
 
@@ -24,6 +24,14 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 ## TOOLS & RESOURCES
 
 ### SOFTWARE
+
+* Python 3.9.3
+  * Libraries & packages: Tweepy, SQLAlchemy, NLTK
+* Jupyter Notebook or Google Colab
+* PostgreSQL 
+* pdAdmin
+
+*Dashboard software TBD
 
 ### THE DATA
 
