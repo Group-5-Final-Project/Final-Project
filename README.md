@@ -6,7 +6,7 @@ The emergence of the Coronavirus pandemic has normalized vaccines to become a pa
 
 As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well predate COVID, however given how pervasive vaccine discourse has been, they seem to be on the rise. Understanding the causes and levels of vaccine hesitance is an important first step in addressing the factors that prevent people from getting vaccinated.
 
-For this project, we took to Twitter to 
+For this project, we took to Twitter to gather vaccine sentiments from the beginning of the pandemic.
 
 ## THE TEAM
 
