@@ -31,7 +31,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 * PostgreSQL 
 * pdAdmin
 
-*Dashboard software TBD
+<sup>*</sup>*Dashboard software TBD*
 
 ### THE DATA
 
