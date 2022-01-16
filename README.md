@@ -27,7 +27,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 ### SOFTWARE
 
 * Python 3.9.3
-  * Libraries & packages: Tweepy, SQLAlchemy, NLTK
+  * Libraries & packages: Tweepy, SQLAlchemy, scikit-learn, NLTK
 * Jupyter Notebook or Google Colab
 * PostgreSQL 
 * pdAdmin
