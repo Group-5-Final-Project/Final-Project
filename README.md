@@ -77,6 +77,14 @@ Above is a sample of the code that will be used for the machine learning model.
 
 ## DATABASE
 
+![alt_text](https://user-images.githubusercontent.com/89050277/149680598-5268d525-aea2-4126-b5f8-318e24edd0d5.jpg)
+
+> Preliminary database schema
+
+![alt_text](https://user-images.githubusercontent.com/89050277/149680636-1e6b4067-9d6e-4498-bc0a-02aa71c91c65.jpg)
+
+> Preliminary ERD
+
 ## DASHBOARD
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149342404-364b67d3-54ff-4646-af82-28fee2670027.jpg)
