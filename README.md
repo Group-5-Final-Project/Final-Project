@@ -42,7 +42,7 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
  
- > The Twitter API provides Tweet data in JSON format, as seen above. The data will be transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
+ > The Twitter API provides Tweet data in JSON format, as seen above. The data will be parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
 
 ### PROJECT PIPELINE
 
