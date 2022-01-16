@@ -69,7 +69,9 @@ labels = ['Negative','Neutral', 'Positive']
 
 **Algorithm:** `Naive-Bayes`
 
-**Labels:** `Positive`, `Neutral`, `Negative`
+**Input:** Tweet data from database
+
+**Output Labels:** `Positive`, `Neutral`, `Negative`
 
 Above is a sample of the code that will be used for the machine learning model. 
 
