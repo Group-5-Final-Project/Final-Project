@@ -48,7 +48,7 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 
 ![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ee3095e1487ec3f1dd9514745f43cfb4e7e41181/Pipeline.jpg)
 
-> Above is a high-level view of the project components.
+> Above is a high-level view of the project. Information on each component can be found in the corresponding sub-headings below.
 > Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html).
  
 
@@ -66,6 +66,11 @@ for idx in data.index:
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
 labels = ['Negative','Neutral', 'Positive']
 ```
+
+**Algorithm:** `Naive-Bayes`
+**Labels:** `Positive`, `Neutral`, `Negative`
+
+Above is a sample of the code that will be used for the machine learning model. 
 
 ## DATABASE
 
