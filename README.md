@@ -91,7 +91,7 @@ Above is a sample of the code that will be used for the machine learning model.
 
 For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/602bb543cc603b79eb2f4a06d4dd8a82b9bcb2ab/Twitter%20Data.ipynb) is saved in the "Tweets" table. The processed data is then saved into NLP_tweets, and tweets_chart, to be used for visualizations and the machine learning model.
 
-![alt_text](https://user-images.githubusercontent.com/89050277/150657291-0e4b36b8-48e9-4b76-a39c-f7217b250405.jpg)
+![alt_text](https://user-images.githubusercontent.com/89050277/150657720-391f6b96-327c-4a56-bc3c-f3b936ffe6a5.jpg)
 
 
 | **Data**      |**Description**|
