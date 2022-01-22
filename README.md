@@ -48,10 +48,11 @@ Due to Twitter API limitations, and in order to continue with this project, we d
 Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from March 2020 to January 2022. Still, the data required a bit of cleaning to remove duplicates. The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/602bb543cc603b79eb2f4a06d4dd8a82b9bcb2ab/Twitter%20Data.ipynb)
 
 
-:x:
+:x::x::x::x::x:
+
 Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets that contain the word **vaccine** from the start of the pandemic (around March 2020) to present.
 
-:x:
+:x::x::x::x::x:
 
 [Tweet Data](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet)
 
@@ -62,7 +63,9 @@ Data will be extracted using the [Twitter API](https://developer.twitter.com/en)
 
 ### PROJECT PIPELINE
 
-![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ee3095e1487ec3f1dd9514745f43cfb4e7e41181/Pipeline.jpg)
+:new:
+
+![alt_text](https://user-images.githubusercontent.com/89050277/150654177-e4eac62d-9f36-4732-a4ad-493b5069a825.jpg)
 
 > Above is a high-level view of the project. Information on each component can be found in the corresponding sub-headings below.
 > Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html).
