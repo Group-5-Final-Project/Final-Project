@@ -96,14 +96,14 @@ For the database portion of this project, we chose postgreSQL to store both the 
 
 | **Data**      |**Description**|
 | ------------- | ------------- |
-| user_name     | The username of the Twitter account where the tweet originated |
-| user_location | The location of the Tweeter|
-| date          | The date the tweet was created  |
-| text          | The body or text of the tweet, which will be analyzed  |
-| hashtags      | Any hashtags included with the tweet  |
-| is_retweet    | If the tweet was a retweet  |
-| label         | If the tweet is positive, neutral, or negative, as classified by the model  |
-| counts        | The count of positive, negative, and neutral tweets  |
+| **user_name**     | The username of the Twitter account where the tweet originated |
+| **user_location** | The location of the user|
+| **date**          | The date the tweet was created  |
+| **text**          | The body or text of the tweet, which will be analyzed  |
+| **hashtags**      | Any hashtags included with the tweet  |
+| **is_retweet**    | If the tweet was a retweet  |
+| **label**         | If the tweet is positive, neutral, or negative, as classified by the model  |
+| **counts**        | The count of positive, negative, and neutral tweets  |
 
 
 ## DASHBOARD
