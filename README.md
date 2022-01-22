@@ -37,7 +37,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ### THE DATA
 
-**:new: UPDATE :new:**
+**:new: UPDATE 
 
 Due to Twitter API limitations, and in order to continue with this project, we decided to combine existing Kaggle datasets and proceed with the analysis. Links to the datasets are provided below:
 
@@ -47,14 +47,7 @@ Due to Twitter API limitations, and in order to continue with this project, we d
 
 Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from March 2020 to January 2022. Still, the data required a bit of cleaning to remove duplicates. The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/602bb543cc603b79eb2f4a06d4dd8a82b9bcb2ab/Twitter%20Data.ipynb)
 
-
-:x::x::x::x::x:
-
-Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets that contain the word **vaccine** from the start of the pandemic (around March 2020) to present.
-
-:x::x::x::x::x:
-
-[Tweet Data](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet)
+~~Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet.~~ We will be focusing on tweets that contain the word **vaccine** from the start of the pandemic (around March 2020) to present.
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
  
