@@ -37,7 +37,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ### THE DATA
 
-**:new: UPDATE 
+**:new:UPDATE** 
 
 Due to Twitter API limitations, and in order to continue with this project, we decided to combine existing Kaggle datasets and proceed with the analysis. Links to the datasets are provided below:
 
