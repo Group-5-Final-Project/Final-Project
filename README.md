@@ -1,4 +1,4 @@
-# #Vaccine Sentiment Analysis 💉
+# Vaccine Sentiment Analysis 💉
 
 ## PROJECT OVERVIEW
 
@@ -27,22 +27,37 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 ### SOFTWARE
 
 * Python 3.9.3
-  * Libraries & packages: Tweepy, SQLAlchemy, scikit-learn, NLTK
+  * Libraries & packages: Tweepy, SQLAlchemy, scikit-learn, NLTK, matplotlib
 * Jupyter Notebook or Google Colab
 * PostgreSQL 
 * pdAdmin
-
-<sup>*</sup>*Dashboard software TBD*
+* HTML/CSS
+* D3
+* Tableau
 
 ### THE DATA
 
-Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets containing **#vaccine** from the start of the pandemic (around March 2020) to present.
+**:new: UPDATE :new:**
+
+Due to Twitter API limitations, and in order to continue with this project, we decided to combine existing Kaggle datasets and proceed with the analysis. Links to the datasets are provided below:
+
+[Data Set 1](https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets?select=vaccination_all_tweets.csv)
+
+[Data Set 2](https://www.kaggle.com/kaushiksuresh147/covidvaccine-tweets)
+
+Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from March 2020 to January 2022. Still, the data required a bit of cleaning to remove duplicates. The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/602bb543cc603b79eb2f4a06d4dd8a82b9bcb2ab/Twitter%20Data.ipynb)
+
+:x:
+Data will be extracted using the [Twitter API](https://developer.twitter.com/en), which pulls "Twitter Objects" containing the text of a tweet. We will be focusing on tweets that contain the word **vaccine** from the start of the pandemic (around March 2020) to present.
+
+:x:
 
 [Tweet Data](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet)
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
  
  > The Twitter API provides Tweet data in JSON format, as seen above. The data will be parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
+
 
 ### PROJECT PIPELINE
 
