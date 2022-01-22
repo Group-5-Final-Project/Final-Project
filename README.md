@@ -12,7 +12,7 @@ For this project, we took to Twitter to gather vaccine sentiments from the begin
   * Positive, negative, or neutral
 * How have these sentiments changed throughout the course of the pandemic, if at all?
   * Do pandemic milestones (e.g. waves, mandates, laws, etc.) impact opinions? 
-* What word associations are found with #vaccine?
+* What word associations are found with the word vaccine?
 
 Data extracted from Twitter will be stored in a Postgres database, analyzed using Natural Language Processing (NLP), and the findings will be visualized on a custom dashboard.
 
