@@ -104,6 +104,7 @@ For the database portion of this project, we chose postgreSQL to store both the 
 | **is_retweet**    | If the tweet was a retweet  |
 | **label**         | If the tweet is positive, neutral, or negative, as classified by the model  |
 | **counts**        | The count of positive, negative, and neutral tweets  |
+| **user_verified** | When true, indicates that the user has a verified account  |
 
 
 ## DASHBOARD
