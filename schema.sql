@@ -4,6 +4,7 @@ CREATE TABLE tweets (
     text varchar,
     hashtags varchar,
     is_retweet boolean
+    user_verified boolean
 );
 
 CREATE TABLE Tweets_Chart (
