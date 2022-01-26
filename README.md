@@ -32,6 +32,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 * PostgreSQL 
 * pdAdmin
 * HTML/CSS
+* Bootstrap 3
 * D3
 * Tableau
 
