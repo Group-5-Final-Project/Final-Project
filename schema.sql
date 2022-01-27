@@ -1,5 +1,6 @@
 CREATE TABLE tweets (
     user_name varchar,
+    user_location varchar,
     date dt,
     text varchar,
     hashtags varchar,
