@@ -131,5 +131,6 @@ A link for the presentation can be found [here](https://docs.google.com/presenta
 
 Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages.
 
-![alt_text](https://user-images.githubusercontent.com/89050277/151415222-25b252de-2a4b-4c39-8fc5-8ff946b89a6c.jpg)
+![alt_text](https://user-images.githubusercontent.com/89050277/151417481-011b92dd-9aed-43ce-9428-57374581c151.jpg)
+
 
