@@ -127,6 +127,6 @@ For the database portion of this project, we chose postgreSQL to store both the 
 
 ## DASHBOARD
 
-[Google Slides Presentation](https://docs.google.com/presentation/d/1l5rIX7Nb_9dEN95sjcQNQWVZQ4opuhJLGZfmjViJZgA/present?slide=id.gc6f80d1ff_0_0)
+A link for the presentation can be found [here](https://docs.google.com/presentation/d/1l5rIX7Nb_9dEN95sjcQNQWVZQ4opuhJLGZfmjViJZgA/present?slide=id.gc6f80d1ff_0_0).
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149342404-364b67d3-54ff-4646-af82-28fee2670027.jpg)
