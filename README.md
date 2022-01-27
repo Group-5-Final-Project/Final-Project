@@ -71,14 +71,14 @@ We will be focusing on tweets that contain the word **vaccine** from the start o
 
 Transform the column with sentiment labels with LabelEncoder:
 
-le = LabelEncoder()
+`le = LabelEncoder()
 tweets_new_df['label'] = le.fit_transform(tweets_new_df['label'])
 
 Define features set as (X), and target array as (y).
 
 col = ['user_name','user_followers','user_friends','label']
 tweets_new_df= tweets_new_nlp[col]
-tweets_new_df.head()
+tweets_new_df.head()`
 
 ### Train-Test splitting
 
