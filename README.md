@@ -67,18 +67,35 @@ We will be focusing on tweets that contain the word **vaccine** from the start o
 
 ## MACHINE LEARNING MODEL
 
-```X = []
-Y = []
-for idx in data.index:
-  X.append(text_preprocess(data['text'][idx], tknzr))
-  Y.append(data['categorical_label'][idx])```
-  
+### Split the Data into Training and Testing: 
+
+Transform the column with sentiment labels with LabelEncoder:
+
+le = LabelEncoder()
+tweets_new_df['label'] = le.fit_transform(tweets_new_df['label'])
+
+Define features set as (X), and target array as (y).
+
+col = ['user_name','user_followers','user_friends','label']
+tweets_new_df= tweets_new_nlp[col]
+tweets_new_df.head()
+
 ### Train-Test splitting
 
-```from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
-labels = ['Negative','Neutral', 'Positive']
-```
+labels = ['Negative','Neutral', 'Positive']        
+
+### Model 1. Oversampling:
+
+This model will create oversampling algorithm and analyse its performance. Following steps will be performed to
+
+  1. Firstly, the data will be oversmapled by using the naive random oversampling algorithm 
+  2. Use the resampled data to train a logistic regression model.
+  3. Calculate the balanced accuracy score from sklearn.metrics.
+  4. Print the confusion matrix from sklearn.metrics.
+  5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn.
+
 
 **Algorithm:** `Naive-Bayes`
 
@@ -86,7 +103,6 @@ labels = ['Negative','Neutral', 'Positive']
 
 **Output Labels:** `Positive`, `Neutral`, `Negative`
 
-Above is a sample of the code that will be used for the machine learning model. 
 
 ## DATABASE
 
