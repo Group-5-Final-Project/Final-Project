@@ -129,4 +129,7 @@ For the database portion of this project, we chose postgreSQL to store both the 
 
 A link for the presentation can be found [here](https://docs.google.com/presentation/d/1l5rIX7Nb_9dEN95sjcQNQWVZQ4opuhJLGZfmjViJZgA/present?slide=id.gc6f80d1ff_0_0).
 
-![alt_text](https://user-images.githubusercontent.com/89050277/149342404-364b67d3-54ff-4646-af82-28fee2670027.jpg)
+Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages.
+
+![alt_text](https://user-images.githubusercontent.com/89050277/151415222-25b252de-2a4b-4c39-8fc5-8ff946b89a6c.jpg)
+
