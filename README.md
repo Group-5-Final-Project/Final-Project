@@ -27,16 +27,8 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ### SOFTWARE
 
-* Python 3.9.3
-  * Libraries & packages: Pandas, SQLAlchemy, scikit-learn, NLTK, matplotlib, Regex, textblob
-* Jupyter Notebook or Google Colab
-* PostgreSQL 
-* pdAdmin
-* HTML/CSS
-* Bootstrap 3
-* D3
-* Tableau
-* Mapbox
+![alt_text](https://user-images.githubusercontent.com/89050277/151611469-64141a92-ad6d-40a5-8a9a-1a90d2e5e781.jpg)
+  > L-R: Python 3.9.3 and relevant libraries, Jupyter Notebook, Google Colab, Mapbox, postgreSQL/pgAdmin, Bootstrap, Tableau, HTML, JS + D3, CSS.
 
 ### THE DATA
 
