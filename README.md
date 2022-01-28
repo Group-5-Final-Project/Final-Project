@@ -35,6 +35,7 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 * Bootstrap 3
 * D3
 * Tableau
+* Mapbox
 
 ### THE DATA
 
