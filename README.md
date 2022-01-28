@@ -93,7 +93,7 @@ labels = ['Negative','Neutral', 'Positive']`
 
 This model will create oversampling algorithm and analyse its performance. Following steps will be performed to
 
-  1. Firstly, the data will be oversmapled by using the naive random oversampling algorithm 
+  1. Firstly, the data will be oversampled by using the naive random oversampling algorithm 
   2. Use the resampled data to train a logistic regression model.
   3. Calculate the balanced accuracy score from sklearn.metrics.
   4. Print the confusion matrix from sklearn.metrics.
