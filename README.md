@@ -4,7 +4,7 @@
 
 The emergence of the Coronavirus pandemic has normalized vaccines to become a part of everyday discourse, as global efforts to increase vaccination rates continue. Considered to have an integral role in managing the pandemic, governments, employers, and other organizations have either implemented or considered vaccine mandates, and this has possibly become the most contentious topic in the last couple of years.
 
-As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well predate COVID, however given how pervasive vaccine discourse has become, they seem to be on the rise. Understanding the causes and levels of vaccine hesitance is an important first step in addressing the factors that prevent people from getting vaccinated.
+As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well-predate COVID, however given how pervasive vaccine discourse has become, they seem to be on the rise. Understanding the causes and levels of vaccine hesitance is an important first step in addressing the factors that prevent people from getting vaccinated.
 
 For this project, we took to Twitter to gather vaccine sentiments from the beginning of the pandemic to present, in an effort to address the following questions:
 
@@ -13,6 +13,7 @@ For this project, we took to Twitter to gather vaccine sentiments from the begin
 * How have these sentiments changed throughout the course of the pandemic, if at all?
   * Do pandemic milestones (e.g. waves, mandates, laws, etc.) impact opinions? 
 * What word associations are found with the word vaccine?
+* Are we really as divided on vaccines as it seems?
 
 Data extracted from Twitter will be stored in a Postgres database, analyzed using Natural Language Processing (NLP), and the findings will be visualized on a custom dashboard.
 
@@ -47,13 +48,24 @@ Due to Twitter API limitations, and in order to continue with this project, we d
 
 [Data Set 2](https://www.kaggle.com/kaushiksuresh147/covidvaccine-tweets)
 
-Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from March 2020 to January 2022. Still, the data required a bit of cleaning to remove duplicates. The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb)
+Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from March 2020 to January 2022. Still, the data required a bit of cleaning to remove duplicates and redundancies. The tweets from these datasets are taken from the start of the pandemic (around March 2020) to present, all contain the word `vaccine`. Below is a summary of how the data was processed for analysis (in Jupyter Notebook or Google Colab, using Python):
 
-We will be focusing on tweets that contain the word **vaccine** from the start of the pandemic (around March 2020) to present.
+1. Both CSVs were imported as dataframes (DFs)
+2. Unnecessary columns were dropped, so both DFs had identical structures  
+3. Validated that there were no "null" values in the `text`column
+4. DFs were concatenated to create a single DF
+5. Duplicate tweets were dropped
+6. Blank rows in the `user_location` column were dropped
+7. The `date` column was coverted to datetime
+8. The new DF was converted to a CSV file AND exported/stored in a postgres database
+
+The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb)
+
+Below is an example of the data made available by the Twitter API:
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
  
- > The Twitter API provides Tweet data in JSON format, as seen above. The data will be parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
+ > The Twitter API provides Tweet data in JSON format, as seen above. The data was parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
 
 
 ### PROJECT PIPELINE
