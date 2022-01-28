@@ -129,7 +129,7 @@ For the database portion of this project, we chose postgreSQL to store both the 
 
 A link for the presentation can be found [here](https://docs.google.com/presentation/d/1l5rIX7Nb_9dEN95sjcQNQWVZQ4opuhJLGZfmjViJZgA/present?slide=id.gc6f80d1ff_0_0).
 
-Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages.
+Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages. the dashboard will include figures, interactive graphs, and a tweet map, along with information about the machine learning model.
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/151417481-011b92dd-9aed-43ce-9428-57374581c151.jpg)
 
