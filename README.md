@@ -85,9 +85,9 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 `Negative` < 0.0
 
-`Neutral` < 1.0
+`Neutral` = 1.0
 
-`Positive` < 0.0
+`Positive` > 0.0
 
 ### Label Encoding
 
