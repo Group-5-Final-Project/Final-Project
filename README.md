@@ -109,9 +109,11 @@ This model will create oversampling algorithm and analyse its performance. Follo
 
 ## DATABASE
 
-For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb) is saved in the "Tweets" table. The processed data is then saved into NLP_tweets, and tweets_chart, to be used for visualizations and the machine learning model.
+For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb) is saved in the "Tweets" table. The processed data is then saved into `NLP_tweets`, and `tweets_chart`, to be used for visualizations and the machine learning model.
 
-![alt_text](https://user-images.githubusercontent.com/89050277/150890145-a24d935b-bb8a-4048-a5e4-4ba22bc501c9.jpg)
+During the machine learning stage, a new table, `encoded_data` was created to assign numerical values to each sentiment. This table was joined with `NLP_tweets` to create a new table, `complete_sentiment`. Please refer to [schema.sql](https://github.com/Group-5-Final-Project/Final-Project/blob/c5808e3c5d6ae66e9610cad2e91dee60ae825a2e/schema.sql) for more information.
+
+![alt_text](https://user-images.githubusercontent.com/89050277/151637863-b868b6c8-639c-4222-8a5e-9340d50f9724.jpg)
 
 
 
@@ -123,7 +125,8 @@ For the database portion of this project, we chose postgreSQL to store both the 
 | **text**          | The body or text of the tweet, which will be analyzed  |
 | **hashtags**      | Any hashtags included with the tweet  |
 | **is_retweet**    | If the tweet was a retweet  |
-| **label**         | If the tweet is positive, neutral, or negative, as classified by the model  |
+| **label**         | The numerical value assigned to each sentiment  |
+| **sentiment**     | If the tweet is positive, neutral, or negative, as classified by the model  |
 | **counts**        | The count of positive, negative, and neutral tweets  |
 | **user_verified** | When true, indicates that the user has a verified account  |
 
