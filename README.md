@@ -73,7 +73,7 @@ Below is an example of the data made available by the Twitter API:
 
 ### Data Pre-processing
 
-Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenizated" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using lemmatization, as shown in the illustration below.
+Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using lemmatization, as shown in the illustration below.
 
 ![alt_text](https://raw.githubusercontent.com/jess-data/Twitter-2020-Sentiment-Analysis/master/twitter.jpg)
 
