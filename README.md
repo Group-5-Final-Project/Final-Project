@@ -79,6 +79,14 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 ![alt_text](https://raw.githubusercontent.com/jess-data/Twitter-2020-Sentiment-Analysis/master/twitter.jpg)
 
+### Sentiment Analysis
+
+`SentimentIntensityAnalyzer` from NLTK was used to complete the sentiment analysis. The data was assigned a polarity value of `-1.0`, `0.0`, or `1.0`, and based on this ranking, then given a a label of `Negative`, `Neutral`, or `Positive`. 
+
+### Label Encoding
+
+`LabelEncoder()` was used to convert sentiment labels into a numeric, machine-readable form. 
+
 ### Split the Data into Training and Testing: 
 
 Transform the column with sentiment labels with LabelEncoder:
