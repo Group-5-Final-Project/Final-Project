@@ -1,7 +1,7 @@
 CREATE TABLE tweets (
     user_name varchar,
     user_location varchar,
-    date dt,
+    date timestamp,
     text varchar,
     hashtags varchar,
     is_retweet boolean
@@ -9,21 +9,21 @@ CREATE TABLE tweets (
 );
 
 CREATE TABLE Tweets_Chart (
-    date dt,
+    date timestamp,
     label varchar,
     counts int
 );
 
 CREATE TABLE NLP_tweets (
     user_name varchar,
-    date dt,
+    date timestamp,
     text varchar,
     label varchar
 );
 
 CREATE TABLE encoded_data (
-    text varchar,
-    label int, 
+    text text,
+    label bigint, 
 );
 
 -----------------
