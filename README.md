@@ -81,7 +81,11 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 ### Sentiment Analysis
 
-`SentimentIntensityAnalyzer` from NLTK was used to complete the sentiment analysis. The data was assigned a polarity value of `-1.0`, `0.0`, or `1.0`, and based on this ranking, then given a a label of `Negative`, `Neutral`, or `Positive`. 
+`SentimentIntensityAnalyzer` from NLTK was used to complete the sentiment analysis. The data was assigned a polarity values of `-1.0`, `0.0`, or `1.0`, and based on this ranking, then given a a label of `Negative`, `Neutral`, or `Positive`. 
+
+`Negative` < 0.0
+`Neutral` < 1.0
+`Positive` < 0.0
 
 ### Label Encoding
 
