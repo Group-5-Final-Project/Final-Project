@@ -123,9 +123,9 @@ During the machine learning stage, a new table, `encoded_data` was created to as
 | **user_name**     | The username of the Twitter account where the tweet originated |
 | **user_location** | The location of the user|
 | **date**          | The date the tweet was created  |
-| **text**          | The body or text of the tweet, which will be analyzed  |
+| **text**          | The body or text of the tweet |
 | **hashtags**      | Any hashtags included with the tweet  |
-| **is_retweet**    | If the tweet was a retweet  |
+| **is_retweet**    | If the tweet is a retweet  |
 | **label**         | The numerical value assigned to each sentiment  |
 | **sentiment**     | If the tweet is positive, neutral, or negative, as classified by the model  |
 | **counts**        | The count of positive, negative, and neutral tweets  |
