@@ -123,7 +123,7 @@ This model will create oversampling algorithm and analyse its performance. Follo
   5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn.
 
 
-**Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification.
+**Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios.
 
 **Input:** Tweet data from database
 
