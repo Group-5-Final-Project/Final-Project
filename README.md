@@ -129,7 +129,7 @@ During the machine learning stage, a new table, `encoded_data` was created to as
 | **label**         | The numerical value assigned to each sentiment  |
 | **sentiment**     | If the tweet is positive, neutral, or negative, as classified by the model  |
 | **counts**        | The count of positive, negative, and neutral tweets  |
-| **user_verified** | When true, indicates that the user has a verified account  |
+| **user_verified** | If the user has a verified account  |
 
 
 ## DASHBOARD
