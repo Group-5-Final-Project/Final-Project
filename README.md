@@ -46,7 +46,7 @@ Fortunately, both datasets were formatted similarly, and combined, contain over 
 4. DFs were concatenated to create a single DF
 5. Duplicate tweets were dropped
 6. Blank rows in the `user_location` column were dropped
-7. The `date` column was coverted to datetime
+7. The `date` column was converted to datetime
 8. The new DF was converted to a CSV file AND exported/stored in a postgres database
 
 The details and code can be found here: [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb)
