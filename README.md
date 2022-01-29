@@ -29,6 +29,17 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/151611469-64141a92-ad6d-40a5-8a9a-1a90d2e5e781.jpg)
   > L-R: Python 3.9.3 and relevant libraries, Jupyter Notebook, Google Colab, Mapbox, postgreSQL/pgAdmin, Bootstrap, Tableau, HTML, JS + D3, CSS.
+ 
+
+### PROJECT PIPELINE
+
+:new:
+
+![alt_text](https://user-images.githubusercontent.com/89050277/150654177-e4eac62d-9f36-4732-a4ad-493b5069a825.jpg)
+
+> Above is a high-level view of the project. Information on each component can be found in the corresponding sub-headings below.
+> Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html).
+
 
 ### THE DATA
 
@@ -56,16 +67,6 @@ Below is an example of the data made available by the Twitter API:
 ![alt_text](https://user-images.githubusercontent.com/89050277/149606858-8295d3f2-ab25-45bc-bf8e-df773f423473.jpg)
  
  > The Twitter API provides Tweet data in JSON format, as seen above. The data was parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
-
-
-### PROJECT PIPELINE
-
-:new:
-
-![alt_text](https://user-images.githubusercontent.com/89050277/150654177-e4eac62d-9f36-4732-a4ad-493b5069a825.jpg)
-
-> Above is a high-level view of the project. Information on each component can be found in the corresponding sub-headings below.
-> Modified from [source](https://www.splunk.com/en_us/blog/it/sentiment-analysis-of-tweets-using-apache-pulsar.html).
  
 
 ## MACHINE LEARNING MODEL
