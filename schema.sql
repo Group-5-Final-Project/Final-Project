@@ -47,3 +47,9 @@ RENAME COLUMN label to sentiment;
 -----------------
 -- JOINING "NLP_tweets" & "encoded_data" 
 
+SELECT npt.date, npt.text, npt.sentiment, ed.label
+INTO complete_sentiment
+FROM "NLP_tweets" as npt
+LEFT JOIN "encoded_data" as ed
+ON npt.text = ed.text;
+
