@@ -113,7 +113,7 @@ tweets_new_df.head()`
 #### Train-Test splitting
 
 `from sklearn.model_selection import train_test_split
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 labels = ['Negative','Neutral', 'Positive']`  
 
 ![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
