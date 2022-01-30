@@ -93,7 +93,7 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 `LabelEncoder()` was used to convert sentiment labels into a numeric, machine-readable form. 
 
-### Split the Data into Training and Testing: 
+### Splitting the Data into Training and Testing: 
 
 The processed dataframe will be further split into features - data columns that will be analysed, and the output, where the results of training set will be used to assess the accuracy of the model.
 
@@ -103,20 +103,22 @@ Define features set as (X), and target array as (y).
 tweets_new_df= tweets_new_nlp[col]
 tweets_new_df.head()`
 
-![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
-
-#### Defining the Target and Features
-
-**Target:** is this tweet positive, negative, or neutral? (`sentiment`)
-**Features:** the body of the tweet (`text`)
-
-As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however it will require further review.
-
-### Train-Test splitting
+#### Train-Test splitting
 
 `from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
-labels = ['Negative','Neutral', 'Positive']`        
+labels = ['Negative','Neutral', 'Positive']`  
+
+![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
+
+
+#### Defining the Target and Features
+
+**Target:** is a tweet positive, negative, or neutral? (`sentiment`)
+**Features:** the body of the tweet (`text`)
+
+As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however it will require further review. 
+
  
 ### Oversampling:
 
