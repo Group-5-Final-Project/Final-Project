@@ -128,23 +128,18 @@ labels = ['Negative','Neutral', 'Positive']`
 As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required to optimize the model. A rough draft of the code can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/8467b47228c242c32ab899568c597ca26c805ff3/Supervised%20Machine%20Learning%20Model.ipynb).
 
  
-### Oversampling:
-
-This model will use an oversampling algorithm and analyse its performance.
-
-  1. Firstly, the data will be oversampled by using the naive random oversampling algorithm and importing. 
-    `from imblearn.over_sampling import RandomOverSampler`
+### Preparing the Model:
     
-  2. The resampled data will be used to train a MultinomialNB learning model.
+  1. The processed data will be used to train a MultinomialNB learning model.
     `from sklearn.naive_bayes import MultinomialNB`
     
-  3. After training the model, the model predictions training dataset will be compiled as y_pred, and a confusion matrix will be created.
+  2. After training the model, the model predictions training dataset will be compiled as y_pred, and a confusion matrix will be created.
    
-  4. The confusion matrix from sklearn.metrics will be used to compare the predicted vs actual results and provides useful insights for model evalaution. The accuracy score will provide a quantitative comparison between the actual and predicted and values.
+  3. The confusion matrix from sklearn.metrics will be used to compare the predicted vs actual results and provides useful insights for model evalaution. The accuracy score will provide a quantitative comparison between the actual and predicted and values.
    
-  5. A classication report will be created using `imbalanced_classification_report` from imbalanced-learn. This will be used to evaluate the classification performed on the imbalanced dataset. As our dataset is also imbalanced, imbalanced classification report provide better insight in evaluating the model.
+  4. A classication report will be created using `imbalanced_classification_report` from imbalanced-learn. This will be used to evaluate the classification performed on the imbalanced dataset. As our dataset is also imbalanced, imbalanced classification report provide better insight in evaluating the model.
    
-  6. The results will be visualized on a plot, where the predicted results are compared to the actual results.
+  5. The results will be visualized on a plot, where the predicted results are compared to the actual results.
 
 
 **Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios, outside of text classification.
