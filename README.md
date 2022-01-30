@@ -125,7 +125,7 @@ labels = ['Negative','Neutral', 'Positive']`
 
 **Features:** the body of the tweet (`text`)
 
-As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required. Our working model can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/132ed66e33037f610d146273f5a06c132101a328/ML_Model.ipynb).
+As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required to optimize the model. A rough draft of the code can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/132ed66e33037f610d146273f5a06c132101a328/ML_Model.ipynb).
 
  
 ### Oversampling:
@@ -147,7 +147,7 @@ This model will use an oversampling algorithm and analyse its performance.
   6. The results will be visualized on a plot, where the predicted results are compared to the actual results.
 
 
-**Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios.
+**Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios, outside of text classification.
 
 **Input:** Tweet data from database
 
