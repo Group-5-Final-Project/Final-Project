@@ -93,6 +93,11 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 `LabelEncoder()` was used to convert sentiment labels into a numeric, machine-readable form. 
 
+
+### CountVectorizer
+
+`CountVectorizer` is a tool provided by the scikit-learn library in Python. It is used to transform a given text into a vector on the basis of the frequency (count) of each word that occurs in the entire text. The value of each cell is nothing but the count of the word in that particular text sample. Essentially, it builds a vocabulary of known words, and allows new documents to be encoded using that vocabulary. The encoded vectors can then be used directly with a machine learning algorithm.
+
 ### Splitting the Data into Training and Testing: 
 
 The processed dataframe will be further split into features - data columns that will be analysed, and the output, where the results of training set will be used to assess the accuracy of the model.
