@@ -122,7 +122,7 @@ labels = ['Negative','Neutral', 'Positive']`
 **Target:** is a tweet positive, negative, or neutral? (`sentiment`)
 **Features:** the body of the tweet (`text`)
 
-As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however it will require further review. 
+As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required. Our working model can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/132ed66e33037f610d146273f5a06c132101a328/ML_Model.ipynb).
 
  
 ### Oversampling:
