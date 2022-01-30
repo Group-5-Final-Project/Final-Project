@@ -1,3 +1,4 @@
+[Readme_new.docx](https://github.com/Group-5-Final-Project/Final-Project/files/7966603/Readme_new.docx)
 #Vaccine Sentiment Analysis 💉
 PROJECT OVERVIEW
 The emergence of the Coronavirus pandemic has normalized vaccines to become a part of everyday discourse, as global efforts to increase vaccination rates continue. Considered to have an integral role in managing the pandemic, governments, employers, and other organizations have either implemented or considered vaccine mandates, and this has possibly become the most contentious topic in the last couple of years.
