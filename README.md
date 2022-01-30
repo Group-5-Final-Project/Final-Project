@@ -106,7 +106,7 @@ The processed dataframe will be further split into features - data columns that 
 
 Define features set as (X), and target array as (y).
 
-`col = ['user_name','user_followers','user_friends','label']
+`col = ['user_name','label','user_location']
 tweets_new_df= tweets_new_nlp[col]
 tweets_new_df.head()`
 
