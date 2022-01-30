@@ -95,7 +95,7 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 ### Split the Data into Training and Testing: 
 
-The processed dataframe will be further split into features - data columns that will be analysed and output- where the results of training set will be compared against to know the accuracy of the model.
+The processed dataframe will be further split into features - data columns that will be analysed and output- where the results of training set will be compared against to know the accuracy of the model
 
 Define features set as (X), and target array as (y).
 
@@ -111,16 +111,23 @@ tweets_new_df.head()`
 `from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
 labels = ['Negative','Neutral', 'Positive']`        
+ 
+### Oversampling:
 
-### Model 1. Oversampling:
+This model will create oversampling algorithm and analyse its performance.
 
-This model will create oversampling algorithm and analyse its performance. Following steps will be performed to
-
-  1. Firstly, the data will be oversampled by using the naive random oversampling algorithm 
-  2. Use the resampled data to train a logistic regression model.
-  3. Calculate the balanced accuracy score from sklearn.metrics.
-  4. Print the confusion matrix from sklearn.metrics.
-  5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn.
+  1. Firstly, the data will be oversampled by using the naive random oversampling algorithm and importing 
+    `from imblearn.over_sampling import RandomOverSampler`
+    
+  2. Use the resampled data to train a MultinomialNB learning model
+    `from sklearn.naive_bayes import MultinomialNB`
+    
+  3. After training the model, model predictions training dataset will be compiled as y_pred, and a confusion matrix will be created
+   
+  4. Print the confusion matrix and accuracy score from sklearn.metrics. Confusion matrix compare the predicted vs actual results and provides useful insights       for model evalaution. Accuracy score provides the quantitative comparison between predicted and actual values.
+   
+  5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn. Imbalanced classification report evaluate the  classification performed on imbalanced dataset. As our dataset is also imbalanced, imbalanced classification report provide better insight in evaluating the  model.
+   
   6. Visualize the plot of accuracy, where predicted results are compared to actual results.
 
 
