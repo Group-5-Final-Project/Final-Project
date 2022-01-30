@@ -95,16 +95,16 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 ### Split the Data into Training and Testing: 
 
-Transform the column with sentiment labels with LabelEncoder:
-
-`le = LabelEncoder()
-tweets_new_df['label'] = le.fit_transform(tweets_new_df['label'])`
+The processed dataframe will be further split into features - data columns that will be analysed and output- where the results of training set will be compared against to know the accuracy of the model.
 
 Define features set as (X), and target array as (y).
 
 `col = ['user_name','user_followers','user_friends','label']
 tweets_new_df= tweets_new_nlp[col]
 tweets_new_df.head()`
+
+
+![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
 
 ### Train-Test splitting
 
@@ -121,6 +121,7 @@ This model will create oversampling algorithm and analyse its performance. Follo
   3. Calculate the balanced accuracy score from sklearn.metrics.
   4. Print the confusion matrix from sklearn.metrics.
   5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn.
+  6. Visualize the plot of accuracy, where predicted results are compared to actual results.
 
 
 **Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios.
