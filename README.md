@@ -116,10 +116,7 @@ tweets_new_df.head()`
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 labels = ['Negative','Neutral', 'Positive']`  
 
-![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
-
 ![alt_text](https://user-images.githubusercontent.com/89050277/151807533-e30dcf11-8662-4249-ab77-f0b0daf32ce8.png)
-
 
 
 #### Defining the Target and Features
