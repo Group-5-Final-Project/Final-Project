@@ -73,7 +73,7 @@ Below is an example of the data made available by the Twitter API:
 
 ### Data Pre-processing
 
-Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using lemmatization, as shown in the illustration below.
+Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using stemmatization, as shown in the illustration below.
 
 Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/3bde5c3d202d49d8e20387cc86883c0571978421/Data%20Processing%20Using%20NLP.ipynb)
 
