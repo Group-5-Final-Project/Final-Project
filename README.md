@@ -71,6 +71,8 @@ Below is an example of the data made available by the Twitter API:
 
 ## MACHINE LEARNING MODEL
 
+Final Machine Learning Model: [code](https://github.com/Group-5-Final-Project/Final-Project/blob/dc1f7a195d2b9bb5d3fe5b1e7e8f0f6d591c17f9/Machine%20Learning%20Model%20Final.ipynb)
+
 ### Data Pre-processing
 
 Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using stemmatization, as shown in the illustration below.
