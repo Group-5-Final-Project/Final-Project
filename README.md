@@ -71,7 +71,7 @@ Below is an example of the data made available by the Twitter API:
 
 ## MACHINE LEARNING MODEL
 
-Final Machine Learning Model: [code](https://github.com/Group-5-Final-Project/Final-Project/blob/dc1f7a195d2b9bb5d3fe5b1e7e8f0f6d591c17f9/Machine%20Learning%20Model%20Final.ipynb)
+**Final Machine Learning Model**: [Machine Learning Model Final.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/dc1f7a195d2b9bb5d3fe5b1e7e8f0f6d591c17f9/Machine%20Learning%20Model%20Final.ipynb)
 
 ### Data Pre-processing
 
