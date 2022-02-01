@@ -28,8 +28,13 @@ The team members have not been assigned specific 'circle', 'square', or 'triangl
 
 ### SOFTWARE
 
-![alt_text](https://user-images.githubusercontent.com/89050277/151611469-64141a92-ad6d-40a5-8a9a-1a90d2e5e781.jpg)
-  > L-R: Python 3.9.3 and relevant libraries, Jupyter Notebook, Google Colab, Mapbox, postgreSQL/pgAdmin, Bootstrap, Tableau, HTML, JS + D3, CSS.
+* Python 3.9.3
+  * Libraries & packages: Tweepy, SQLAlchemy, NLTK
+* Jupyter Notebook or Google Colab
+* PostgreSQL 
+* pdAdmin
+
+<sup>*</sup>*Dashboard software TBD*
  
 
 ### PROJECT PIPELINE
@@ -74,11 +79,8 @@ Below is an example of the data made available by the Twitter API:
 
 ### Data Pre-processing
 
-Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using lemmatization, as shown in the illustration below.
+Prior to analysis, the tweet data was cleaned to remove any links, punctuation, emojis, or stop words. The cleaned tweets were then "Tokenized" using NLP, wherein the individual sentences were broken up into smaller units or words ("tokens") to remove unnecessary elements. The words were then returned to their base form using lemmatization
 
-Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/3bde5c3d202d49d8e20387cc86883c0571978421/Data%20Processing%20Using%20NLP.ipynb)
-
-![alt_text](https://raw.githubusercontent.com/jess-data/Twitter-2020-Sentiment-Analysis/master/twitter.jpg)
 
 
 ### CountVectorizer
@@ -117,7 +119,7 @@ tweets_new_df.head()`
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 labels = ['Negative','Neutral', 'Positive']`  
 
-![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/ccd3d60951d053e4e9d8600c0c84bdc4c47c05ea/splitting-data.png)
+
 
 
 #### Defining the Target and Features
