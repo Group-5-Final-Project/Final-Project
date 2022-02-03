@@ -21,7 +21,6 @@ Data extracted from Twitter will be stored in a Postgres database, analyzed usin
 
 [Divyanshu Bisht](https://github.com/div1085) | [Farwa Ali](https://github.com/farwaali08) | [Sangeetha Praveen Kumar](https://github.com/praveen240881)
 
-The team members have not been assigned specific 'circle', 'square', or 'triangle' roles. All members are working collaboratively on each task, and each member has their own branch. The team communicates primarily through Slack, but also meet at least once a week via Zoom.
 
 ## TOOLS & RESOURCES
 
