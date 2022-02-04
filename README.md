@@ -71,7 +71,7 @@ Below is an example of the data made available by the Twitter API:
 
 ## MACHINE LEARNING MODEL
 
-**Final Machine Learning Model**: [Machine Learning Model Final.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/dc1f7a195d2b9bb5d3fe5b1e7e8f0f6d591c17f9/Machine%20Learning%20Model%20Final.ipynb)
+**Final Machine Learning Model**: [Machine Learning Model Final.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/8633adfbf75052b94d49260305c50a9307da94c4/Machine%20Learning%20Model%20Final_With%20Plots.ipynb)
 
 ### Data Pre-processing
 
@@ -129,7 +129,7 @@ labels = ['Negative','Neutral', 'Positive']`
 
 **Features:** the body of the tweet (`text`)
 
-As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required to optimize the model. The code for the final model can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/7abf4e5e301ad734fde38c7368afaa9b116222b8/Machine%20Learning%20Model%20Final.ipynb).
+As the goal is to determine the sentiment of the tweet, `text` seems to be the obvious choice as the primary feature of the model. A [sample model](https://github.com/Group-5-Final-Project/Final-Project/blob/04a2eeaf3471619311dbb64b70d003edfd8efa02/ML_Model.ipynb) was created, however based on the results, it was apparent that further work is required to optimize the model. The code for the final model can be found [here](https://github.com/Group-5-Final-Project/Final-Project/blob/8633adfbf75052b94d49260305c50a9307da94c4/Machine%20Learning%20Model%20Final_With%20Plots.ipynb).
 
 The addition of `CountVectorizer` tremendously improved the accuracy score of the model.
 
