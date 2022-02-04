@@ -152,7 +152,9 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 ### Results & Accuracy Score
 
-![alt_text](https://user-images.githubusercontent.com/89050277/152615768-21a777c1-71be-41f8-ad30-1e331cb68698.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
+</p>
 
 
 ## DATABASE
