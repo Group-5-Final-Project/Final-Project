@@ -150,6 +150,10 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 **Output Labels:** `Positive`, `Neutral`, `Negative`
 
+### Results & Accuracy Score
+
+![alt_text](https://user-images.githubusercontent.com/89050277/152615768-21a777c1-71be-41f8-ad30-1e331cb68698.jpg)
+
 
 ## DATABASE
 
