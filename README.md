@@ -33,8 +33,6 @@ Data extracted from Twitter will be stored in a Postgres database, analyzed usin
 
 ### PROJECT PIPELINE
 
-:new:
-
 ![alt_text](https://user-images.githubusercontent.com/89050277/150654177-e4eac62d-9f36-4732-a4ad-493b5069a825.jpg)
 
 > Above is a high-level view of the project. Information on each component can be found in the corresponding sub-headings below.
@@ -42,8 +40,6 @@ Data extracted from Twitter will be stored in a Postgres database, analyzed usin
 
 
 ### THE DATA
-
-:new: **UPDATE** 
 
 Due to Twitter API limitations, and in order to continue with this project, we decided to combine existing Kaggle datasets and proceed with the analysis. Links to the datasets are provided below:
 
