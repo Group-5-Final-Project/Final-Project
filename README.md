@@ -183,6 +183,6 @@ A link for the presentation can be found [here](https://docs.google.com/presenta
 
 Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages. the dashboard will include figures, interactive graphs, and a tweet map, along with information about the machine learning model.
 
-![alt_text](https://user-images.githubusercontent.com/89050277/151417481-011b92dd-9aed-43ce-9428-57374581c151.jpg)
+![alt_text](https://user-images.githubusercontent.com/89050277/152584310-877261f5-391f-48aa-857f-ece524dd5df7.jpg)
 
 
