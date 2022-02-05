@@ -18,6 +18,9 @@ For this project, we took to Twitter to gather vaccine sentiments from the begin
 
 Data extracted from Twitter will be stored in a Postgres database, analyzed using Natural Language Processing (NLP), and the findings will be visualized on a custom dashboard.
 
+## Problem Statement
+The project is to question what is the Public's perception and acceptance of the Vaccine programs. If there are any doubts exists, what are the reasons to being doubtful. To answer this question we used Supervised learning to classify the sentiments of the tweets and to understand the reason behind being doubtful.
+
 ## THE TEAM
 
 [Divyanshu Bisht](https://github.com/div1085) | [Farwa Ali](https://github.com/farwaali08) | [Sangeetha Praveen Kumar](https://github.com/praveen240881)
@@ -120,8 +123,6 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 labels = ['Negative','Neutral', 'Positive']`  
 
 
-
-
 #### Defining the Target and Features
 
 **Target:** is a tweet positive, negative, or neutral? (`sentiment`)
@@ -150,6 +151,11 @@ As the goal is to determine the sentiment of the tweet, `text` seems to be the o
 **Input:** Tweet data from database
 
 **Output Labels:** `Positive`, `Neutral`, `Negative`
+
+## Current Accuracy Score
+
+By applying the machine learning model  that focusses on the perspective rather than the social perspective by analyzing the setting over unigram feature set along with dataset evaluation of multiple machine learning modesl we have achieved an accurracy score of **91.6%** in detecting the actual sentiments behind a tweet related to the Vaccinations.
+
 
 
 ## DATABASE
