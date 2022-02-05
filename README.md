@@ -154,8 +154,15 @@ As the goal is to determine the sentiment of the tweet, `text` seems to be the o
 
 ## Current Accuracy Score
 
-By applying the machine learning model  that focusses on the perspective rather than the social perspective by analyzing the setting over unigram feature set along with dataset evaluation of multiple machine learning modesl we have achieved an accurracy score of **91.6%** in detecting the actual sentiments behind a tweet related to the Vaccinations.
+By applying the machine learning model  that focusses on the perspective rather than the social perspective by analyzing the setting over unigram feature set along with dataset evaluation of multiple machine learning modesl we have achieved an accurracy score of **80.05%** in detecting the actual sentiments behind a tweet related to the Vaccinations.
 
+## Explanation of model choice, including limitations and benefits
+
+1. Naive Bayes classifier is a collection of many algorithms where all the algorithms share one common principle, and that is each feature being classified is not related to any other feature. The algorithm is based on the Bayes theorem and predicts the tag of a text such as a piece of email or newspaper article. It calculates the probability of each tag for a given sample and then gives the tag with the highest probability as output. The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification).Multinomial Naive Bayes algorithm is a probabilistic learning method that is mostly used in Natural Language Processing (NLP).
+
+2. Multinomial Naive Bayes classification algorithm tends to be a baseline solution for sentiment analysis task. The basic idea of Naive Bayes technique is to find the probabilities of classes assigned to texts by using the joint probabilities of words and classes.
+
+3. Naive Bayes algorithm is only used for textual data classification and cannot be used to predict numeric values. The result of naive bayes model provide statistical sense by predicting how often that certain words with the sentimental labels appear, which does not necessarily indicate the factual attitudes/sentiments towards covid vaccine, and it does not work with regression because it is not numerical data. One of the benefits of Naive Bayes is that if its assumption of the independence of features holds true, it can perform better than other models and requires much less training data.
 
 
 ## DATABASE
