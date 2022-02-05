@@ -185,8 +185,10 @@ During the machine learning stage, a new table, `encoded_data` was created to as
 
 A link for the presentation can be found [here](https://docs.google.com/presentation/d/1l5rIX7Nb_9dEN95sjcQNQWVZQ4opuhJLGZfmjViJZgA/present?slide=id.gc6f80d1ff_0_0).
 
-Below is a layout of the dashboard, including a summary of the technologies that will be used. The webpage will be deployed on a local machine or on Github pages. the dashboard will include figures, interactive graphs, and a tweet map, along with information about the machine learning model.
+A link for the deployed webpage can be found [here](https://group-5-final-project.github.io/Final-Project/).
 
-![alt_text](https://user-images.githubusercontent.com/89050277/152584310-877261f5-391f-48aa-857f-ece524dd5df7.jpg)
+
+![alt_text](https://user-images.githubusercontent.com/89050277/152657897-683ecf50-37e4-4030-8164-5c8d41bd3400.jpg)
+
 
 
