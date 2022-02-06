@@ -100,7 +100,7 @@ Code: [Data Processing Using NLP.ipynb](https://github.com/Group-5-Final-Project
 
 ### Splitting the Data into Training and Testing: 
 
-The processed dataframe will be further split into features - data columns that will be analysed, and the output, where the results of training set will be used to assess the accuracy of the model.
+The processed dataframe was further split into features - data columns that were analysed, and the output, where the results of training set was used to assess the accuracy of the model.
 
 Define features set as (X), and target array as (y).
 
@@ -144,18 +144,22 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
   5. The results will be visualized on a plot, where the predicted results are compared to the actual results.
 
 
-**Algorithm:** ` Multinomial Naive-Bayes` This algorithm has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios, outside of text classification.
+**Algorithm:** ` Multinomial Naive-Bayes`: This algorithm finds the probabilities of classes assigned to texts by using the joint probabilities of words and classes. It has a fast learning rate and easy design, and works particularly well for text classification, especially with larger datasets. It does however assume that all predictors (or features) are independent, which is generally untrue, and limits its utility for many real-word scenarios, outside of text classification.  
 
 **Input:** Tweet data from database
 
 **Output Labels:** `Positive`, `Neutral`, `Negative`
 
-### Results & Accuracy Score
+### Accuracy Score
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
 </p>
 
+The model’s accuracy score is `88.50`, meaning that it will accurately predict a tweet's sentiment `88.5%` of the time. As we are trying to gauge an approximate distribution of vaccine sentiments, this accuracy score is sufficient for this type of analysis.
+
+
+## RESULTS
 
 ## DATABASE
 
@@ -189,4 +193,9 @@ Please refer to the [Google Slides](https://docs.google.com/presentation/d/1l5rI
 ![alt_text](https://user-images.githubusercontent.com/89050277/152657897-683ecf50-37e4-4030-8164-5c8d41bd3400.jpg)
 
 
+## NEXT STEPS
 
+For future analyses
+
+
+![alt_text](https://user-images.githubusercontent.com/89050277/152699976-3edd05c9-a3c8-495d-8490-b987483522e5.jpg)
