@@ -167,6 +167,9 @@ Having a look at the classification report, it appears that although the overall
 
 ## RESULTS
 
+![alt_text](https://user-images.githubusercontent.com/89050277/152702864-86d5dbc6-0050-4352-b33f-344cda7d4e7f.jpg)
+
+
 ## DATABASE
 
 For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb) is saved in the `Tweets` table. The processed data is then saved into `NLP_tweets`, and `tweets_chart`, to be used for visualizations and the machine learning model.
