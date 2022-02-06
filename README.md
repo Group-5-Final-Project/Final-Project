@@ -158,6 +158,10 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 The model’s accuracy score is `88.50`, meaning that it will accurately predict a tweet's sentiment `88.5%` of the time. As we are trying to gauge an approximate distribution of vaccine sentiments, this accuracy score is sufficient for this type of analysis.
 
+<p align="center">
+   <img src= "https://user-images.githubusercontent.com/89050277/152700167-1d84d3bf-b437-426e-8264-2106151f1c43.jpg"/>
+ </p>
+
 
 ## RESULTS
 
@@ -195,7 +199,12 @@ Please refer to the [Google Slides](https://docs.google.com/presentation/d/1l5rI
 
 ## NEXT STEPS
 
-For future analyses
-
+For future analyses, the following are recommended:
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/152699976-3edd05c9-a3c8-495d-8490-b987483522e5.jpg)
+
+1. **Location, Location, Location**: the present analysis would greatly benefit from location data in geo-coordinate format, OR if the scope of the analysis was changed from global to regional. The global response to the COVID-19 pandemic has varied from region to region, and knowing where the data (or tweets,) is coming from could provide necessary context or rationale. For example, policy changes, lockdowns, case counts, and the emergence of new variants will all impact sentiments towards vaccines. Given location data, it would be easier to link sentiments to these events. Unfortunately, our data did not include this parameter, and this will certainly be a consideration when selecting future datasets.
+
+2. **Socials**: as a step further, it would be interesting to see how sentiments vary across different social media platforms (if at all). Generally speaking, each platform will have varying user demographics, which we anticipate will influence sentiments. Taking it another step further, a separate model could be created to predict the originating platform of a social media post based on the language and sentiment (e.g. this post was likely from Facebook/Meta).
+
+3. **Emotion**: an emotional analysis of the tweets would also help provide better context to the results. As an example, differentiating negative tweets as negative-anger or negative-fear not only provide a more accurate classification, but can provide better insights into addressing these emotions as well. A tool that can be used to achieve this is the [Word-Emotion Association Lexicon](https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/sentiment-emotion-lexicons). 
