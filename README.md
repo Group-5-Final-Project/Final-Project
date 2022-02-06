@@ -165,7 +165,9 @@ The model’s accuracy score is `88.50`, meaning that it will accurately predict
 Having a look at the classification report, it appears that although the overall precision and recall scores are sufficient, the least "precise" category is negative, which may be related to tonality. This is indicative that this area may require further review or training.
 
 
-## RESULTS
+## RESULTS & ANALYSIS
+
+The results of this analysis are displayed visually on our dashboard, linked below. A detailed analysis will be provided shortly.
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/152702864-86d5dbc6-0050-4352-b33f-344cda7d4e7f.jpg)
 
