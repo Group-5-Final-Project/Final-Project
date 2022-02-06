@@ -153,8 +153,10 @@ As the goal is to determine the sentiment of the tweet, `text` seems to be the o
 **Output Labels:** `Positive`, `Neutral`, `Negative`
 
 ## Current Accuracy Score
-
-By applying the machine learning model  that focusses on the perspective rather than the social perspective by analyzing the setting over unigram feature set along with dataset evaluation of multiple machine learning modesl we have achieved an accurracy score of **80.05%** in detecting the actual sentiments behind a tweet related to the Vaccinations.
+The result and accuracy score of multinomial naive bayes after vectorization
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
+</p>
 
 ## Explanation of model choice, including limitations and benefits
 
