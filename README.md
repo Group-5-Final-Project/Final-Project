@@ -259,7 +259,7 @@ Interestingly, we found that the common words didn't really change when we separ
 ![alt_text](https://user-images.githubusercontent.com/89050277/153093699-22dd2966-3a20-4611-80d2-28874ef4efcc.jpg)
 
 
-The hashtag analysis also yielded similar results, saved for `#lockdown`, which may belie the source of frustration:
+The hashtag analysis also yielded similar results, saved for `#lockdown`, which may belie a source of negative sentiment:
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/153094054-333c8c0d-84c6-42f5-9654-588b4ea642f8.png)
 
