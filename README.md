@@ -175,7 +175,7 @@ The confusion matrices below further highlight this point.
  
 The matrices indicate higher accuracy in categorizing positive (93%) and neutral (88%) sentiments, however for the ‘negative’ class, the accuracy is only 77%, which again, may be due to the imbalanced dataset, as stated above. Despite the lower accuracy, overall, the model does satisfy its goal of predicting sentiments.
 
-For future iterations, in addition to fitting the model with more features and applying resampling techniques, a [domain-specific dictionary](https://aclanthology.org/U11-1009.pdf) can be created and utilized in the training steps. Certain terms have significant meanings depending on the context and subject in which they are, and so, including this level of detail may improve the accuracy of the model.
+For future iterations, in addition to fitting the model with more features and applying resampling techniques, a [domain-specific dictionary](https://aclanthology.org/U11-1009.pdf) can be created and utilized in the training steps. Certain terms have significant meanings depending on the context and subject in which they are used, and so, including this level of detail may improve the accuracy of the model.
 
 ## RESULTS & ANALYSIS
 
