@@ -238,12 +238,36 @@ In the context of this dataset, the general sentiment is positive and neutral.
 
 ### Have sentiments changed throughout the pandemic and do pandemic milestones impact opinions?
 
-The answer to this is both yes and no. Our data suggests that although significant events (e.g. policy changes, lockdowns, etc) will impact sentiment, the general trend, and the general distribution (or proportion) of sentiments has remained fairly consistent throughout the study period. We have noticed that towards the end of 2021, and in January 2022, the sentiment has been increasingly negative. This is especially true for January 2022, where nearly 1/4 of the tweets are labelled as negative, which is the highest of any month.  We believe this may be due to lockdowns and other restrictions imposed by the emergence of the Omicron variant, as the hashtag `#lockdown` has been associated with negative tweets. Another factor to consider is pandemic fatigue. Although we only have data for 14 days in January 2022, in light of [recent events](https://en.wikipedia.org/wiki/Freedom_Convoy_2022) we have reason to believe that January 2022 will be more negative overall.
+The answer to this is both yes and no. Our data suggests that although significant events (e.g. policy changes, lockdowns, etc) will impact sentiment, the general trend, and the general distribution (or proportion) of sentiments has remained fairly consistent throughout the study period. For example, we noticed an uptick of tweets discussing vaccines around December 2020, which is when the Pfizer vaccine was first approved for use in the UK. Since then, the discourse around vaccines has been fairly steady.
+
+We have noticed that towards the end of 2021, and in January 2022, the sentiment has been increasingly negative. This is especially true for January 2022, where nearly 1/4 of the tweets are labelled as negative, which is the highest of any month.  We believe this may be due to lockdowns and other restrictions imposed by the emergence of the Omicron variant, as the hashtag `#lockdown` has been associated with negative tweets. Another factor to consider is pandemic fatigue. Although we only have data for 14 days in January 2022, in light of [recent events](https://en.wikipedia.org/wiki/Freedom_Convoy_2022) we have reason to believe that January 2022 will be more negative overall.
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/153068974-f0f13fc5-c55d-47f4-868f-a35082d83477.png)
 
+This image displays the distribution of vaccine sentiment over time, annotated with relevant pandemic milestones. The interactive version of this graph can be viewed on our dashboard.
 
 ### What words are associated with “vaccine”?
+
+The word cloud below displays the most common words used amongst all tweets. The more frequently the word was used, the bigger it is displayed in the word cloud.
+
+![alt_text](https://user-images.githubusercontent.com/89050277/153092934-6bc9820f-e17f-4902-b63b-7152e21a4273.png)
+
+The most common words overall aside from "vaccine" or "COVID" were the words "doses/dose/dose1/dose2", "slots", or names of vaccines (e.g. Covaxin). It appears that the general discussion was geared around vaccine availability, and we noticed that several users tweeted after receiving first or second doses.
+
+Interestingly, we found that the common words didn't really change when we separated the tweets by sentiment, as seen below:
+
+![alt_text](https://user-images.githubusercontent.com/89050277/153093699-22dd2966-3a20-4611-80d2-28874ef4efcc.jpg)
+
+
+The hashtag analysis also yielded similar results, saved for `#lockdown`, which may belie the source of frustration:
+
+![alt_text](https://user-images.githubusercontent.com/89050277/153094054-333c8c0d-84c6-42f5-9654-588b4ea642f8.png)
+
+
+### LIMITATIONS
+
+* Although English is widely used across social media platforms, it does not represent all vaccine-related discussions on Twitter
+* The data is not a complete representation of vaccine-related data on Twitter
 
 
 ## DASHBOARD
