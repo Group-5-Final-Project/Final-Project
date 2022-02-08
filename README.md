@@ -164,7 +164,7 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
     
   2. After training the model, the model predictions training dataset will be compiled as y_pred, and a confusion matrix will be created.
    
-  3. The confusion matrix from sklearn.metrics will be used to compare the predicted vs actual results and provides useful insights for model evalaution. The accuracy score will provide a quantitative comparison between the actual and predicted and values.
+  3. The confusion matrix from sklearn.metrics will be used to compare the predicted vs actual results and provides useful insights for model evalution. The accuracy score will provide a quantitative comparison between the actual and predicted and values.
    
   4. A classication report will be created using `imbalanced_classification_report` from imbalanced-learn. This will be used to evaluate the classification performed on the imbalanced dataset. As our dataset is also imbalanced, imbalanced classification report provide better insight in evaluating the model.
    
