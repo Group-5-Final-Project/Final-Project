@@ -65,6 +65,31 @@ Below is an example of the data made available by the Twitter API:
  > The Twitter API provides Tweet data in JSON format, as seen above. The data was parsed and transformed prior to analysis using Python. The key to this analysis is the `text` feature, particularly for the machine learning component. We will also be using other features such as the `created_at` for other components of this analysis.
  
 
+## DATABASE
+
+For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb) is saved in the `Tweets` table. The processed data is then saved into `NLP_tweets`, and `tweets_chart`, to be used for visualizations and the machine learning model.
+
+During the machine learning stage, a new table, `encoded_data` was created to assign numerical values to each sentiment. This table was joined with `NLP_tweets` to create a new table, `complete_sentiment`. Please refer to [schema.sql](https://github.com/Group-5-Final-Project/Final-Project/blob/c5808e3c5d6ae66e9610cad2e91dee60ae825a2e/schema.sql) for more information, and click [here](https://github.com/Group-5-Final-Project/Final-Project/blob/154ebc444cb5272832782b19d940a4cb27d27541/Miscellaneous/complete_sentiment.jpg) for a look at the `complete_sentiment` table.
+
+![alt_text](https://user-images.githubusercontent.com/89050277/151637863-b868b6c8-639c-4222-8a5e-9340d50f9724.jpg)
+
+
+
+| **Data**      |**Description**|
+| ------------- | ------------- |
+| **user_name**     | The username of the Twitter account where the tweet originated |
+| **user_location** | The location of the user|
+| **date**          | The date the tweet was created  |
+| **text**          | The body or text of the tweet |
+| **hashtags**      | Any hashtags included with the tweet  |
+| **is_retweet**    | If the tweet is a retweet  |
+| **label**         | The numerical value assigned to each sentiment  |
+| **sentiment**     | If the tweet is positive, neutral, or negative, as classified by the model  |
+| **counts**        | The count of positive, negative, and neutral tweets  |
+| **user_verified** | If the user has a verified account  |
+
+ 
+
 ## MACHINE LEARNING MODEL
 
 **Final Machine Learning Model**: [Machine Learning Model Final.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/8633adfbf75052b94d49260305c50a9307da94c4/Machine%20Learning%20Model%20Final_With%20Plots.ipynb)
@@ -179,37 +204,13 @@ For future iterations, in addition to fitting the model with more features and a
 
 ## RESULTS & ANALYSIS
 
-The results of this analysis are displayed visually on our dashboard, linked below, and the following is the corresponding code:
+The results of this analysis are displayed visually on our dashboard, linked below, and the following are the corresponding code:
 
 * [Machine Learning Model Final_With Plots_And Classification1.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Machine%20Learning%20Model%20Final_With%20Plots_And%20Classification1.ipynb)- machine learning, polarity, word clouds 
 
 * [Hashtag Analysis.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Hashtag%20Analysis.ipynb)- an analysis of hashtags
 
 * [Most Polarizing.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Most%20Polarizing.ipynb)- finding the top tweets in each sentiment category
-
-
-## DATABASE
-
-For the database portion of this project, we chose postgreSQL to store both the raw and processed datasets. The raw data from [Twitter Data.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/64dac68ad1fa2f064f81b6050a1aceaaf959845e/Twitter%20Data.ipynb) is saved in the `Tweets` table. The processed data is then saved into `NLP_tweets`, and `tweets_chart`, to be used for visualizations and the machine learning model.
-
-During the machine learning stage, a new table, `encoded_data` was created to assign numerical values to each sentiment. This table was joined with `NLP_tweets` to create a new table, `complete_sentiment`. Please refer to [schema.sql](https://github.com/Group-5-Final-Project/Final-Project/blob/c5808e3c5d6ae66e9610cad2e91dee60ae825a2e/schema.sql) for more information, and click [here](https://github.com/Group-5-Final-Project/Final-Project/blob/154ebc444cb5272832782b19d940a4cb27d27541/Miscellaneous/complete_sentiment.jpg) for a look at the `complete_sentiment` table.
-
-![alt_text](https://user-images.githubusercontent.com/89050277/151637863-b868b6c8-639c-4222-8a5e-9340d50f9724.jpg)
-
-
-
-| **Data**      |**Description**|
-| ------------- | ------------- |
-| **user_name**     | The username of the Twitter account where the tweet originated |
-| **user_location** | The location of the user|
-| **date**          | The date the tweet was created  |
-| **text**          | The body or text of the tweet |
-| **hashtags**      | Any hashtags included with the tweet  |
-| **is_retweet**    | If the tweet is a retweet  |
-| **label**         | The numerical value assigned to each sentiment  |
-| **sentiment**     | If the tweet is positive, neutral, or negative, as classified by the model  |
-| **counts**        | The count of positive, negative, and neutral tweets  |
-| **user_verified** | If the user has a verified account  |
 
 
 ## DASHBOARD
