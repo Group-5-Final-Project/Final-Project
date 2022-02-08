@@ -177,7 +177,7 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 ### Accuracy Score & Confusion Matrices
 
-The [baseline sentiment accuracy rate](https://www.lexalytics.com/lexablog/sentiment-accuracy-baseline-testing) for this type of analysis is between 80-85% [(second source)](https://aclanthology.org/2020.lrec-1.806.pdf), and therefore, we set a target of `85%` accuracy for our model.
+The [baseline sentiment accuracy rate](https://www.lexalytics.com/lexablog/sentiment-accuracy-baseline-testing) for this type of analysis is between 80-85% ([second source])(https://aclanthology.org/2020.lrec-1.806.pdf), and therefore, we set a target of `85%` accuracy for our model.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
