@@ -216,7 +216,7 @@ The results of this analysis are displayed visually on our dashboard, linked bel
 
 The analysis will address our test questions (⏪ rewind to beginning to review):
 
-#### What are the sentiments towards vaccines?
+### What are the sentiments towards vaccines?
 
 Generally, we found positive to be the dominant polarity, followed closely by neutral, as demonstrated in the pie chart below. This initially came as a surprise, as the subject appears to be more polarizing, especially as anti-vaccine [movements](https://theprint.in/world/journalists-in-europe-are-getting-attacked-for-covering-anti-lockdown-anti-vaccine-protests/797005/) appear to be [popping up](https://www.nationalobserver.com/2022/01/12/analysis/experts-warn-violence-alarming-demonstration-ushers-new-era-anti-vaccine-fervour) across [several countries](https://www.aljazeera.com/news/2022/1/9/more-than-100000-rally-in-france-against-covid-vaccine-rules).
 
@@ -236,14 +236,14 @@ We decided to validate our findings in the literature, and looked to similar stu
 In the context of this dataset, the general sentiment is positive and neutral.
 
 
-#### Have sentiments changed throughout the pandemic and do pandemic milestones impact opinions?
+### Have sentiments changed throughout the pandemic and do pandemic milestones impact opinions?
 
-The answer to this is both yes and no. Our data suggests that although significant events (e.g. policy changes, lockdowns, etc) will impact sentiment, the general trend, and the general distribution of sentiments has remained fairly consistent throughout the study period. We have noticed that towards the end of 2021, and in January 2022,
+The answer to this is both yes and no. Our data suggests that although significant events (e.g. policy changes, lockdowns, etc) will impact sentiment, the general trend, and the general distribution (or proportion) of sentiments has remained fairly consistent throughout the study period. We have noticed that towards the end of 2021, and in January 2022, the sentiment has been increasingly negative. This is especially true for January 2022, where nearly 1/4 of the tweets are labelled as negative, which is the highest of any month.  We believe this may be due to lockdowns and other restrictions imposed by the emergence of the Omicron variant, as the hashtag `#lockdown` has been associated with negative tweets. Another factor to consider is pandemic fatigue. Although we only have data for 14 days in January 2022, in light of [recent events](https://en.wikipedia.org/wiki/Freedom_Convoy_2022) we have reason to believe that January 2022 will be more negative overall.
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/153068974-f0f13fc5-c55d-47f4-868f-a35082d83477.png)
 
 
-#### What words are associated with “vaccine”?
+### What words are associated with “vaccine”?
 
 
 ## DASHBOARD
