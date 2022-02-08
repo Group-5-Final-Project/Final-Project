@@ -1,4 +1,4 @@
-config==0.5.1
+
 imbalanced_learn==0.7.0
 imblearn==0.0
 matplotlib==3.3.4
