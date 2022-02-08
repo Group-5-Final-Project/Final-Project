@@ -212,6 +212,18 @@ The results of this analysis are displayed visually on our dashboard, linked bel
 
 * [Most Polarizing.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Most%20Polarizing.ipynb)- finding the top tweets in each sentiment category
 
+The analysis will address our test questions (⏪ rewind to beginning to review):
+
+#### What are the sentiments towards vaccines?
+
+#### Have sentiments changed throughout the pandemic and do pandemic milestones impact opinions?
+
+
+![alt_text](https://user-images.githubusercontent.com/89050277/153068974-f0f13fc5-c55d-47f4-868f-a35082d83477.png)
+
+
+#### What words are associated with “vaccine”?
+
 
 ## DASHBOARD
 
