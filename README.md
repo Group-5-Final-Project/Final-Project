@@ -27,7 +27,7 @@ Data extracted from Twitter will be stored in a Postgres database, analyzed usin
 ### SOFTWARE
 
 ![alt_text](https://user-images.githubusercontent.com/89050277/152583783-b1edaad9-3493-4fe4-babe-d024c32b8147.jpg)
-  > L-R: Python 3.9.3 and relevant libraries, Jupyter Notebook, Google Colab, postgreSQL/pgAdmin, Bootstrap, Tableau, HTML, JS, CSS.
+  > L-R: Python 3.9.3 and relevant libraries, Jupyter Notebook, Google Colab, postgreSQL/pgAdmin, Bootstrap, Tableau, HTML, JS, CSS. See [requirements](https://github.com/Group-5-Final-Project/Final-Project/blob/1207939cace0655497d0909dbf79e43e44151b42/requirements.txt) as well.
  
 
 
