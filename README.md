@@ -216,6 +216,24 @@ The analysis will address our test questions (⏪ rewind to beginning to review)
 
 #### What are the sentiments towards vaccines?
 
+Generally, we found the sentiment to be strongly positive and neutral, as demonstrated in the pie chart below. This initially came as a surprise, as the subject appears to be more polarizing, especially as anti-vaccine [movements](https://theprint.in/world/journalists-in-europe-are-getting-attacked-for-covering-anti-lockdown-anti-vaccine-protests/797005/) appear to be [popping up](https://www.nationalobserver.com/2022/01/12/analysis/experts-warn-violence-alarming-demonstration-ushers-new-era-anti-vaccine-fervour) across [several countries](https://www.aljazeera.com/news/2022/1/9/more-than-100000-rally-in-france-against-covid-vaccine-rules).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/89050277/153070538-f971e27d-016b-4de7-96d2-1db479288752.png"/>
+</p>
+
+
+The histogram below displays the spread of polarity scores, which are distributed towards the centre. This, again, demonstrates that the sentiments are neutral to slightly positive (`0.0` < polarity < `0.25`).
+
+![alt_text](https://github.com/Group-5-Final-Project/Final-Project/blob/572a2b0f9f07bebc6970aaa2627c144231d4caf0/assets/img/portfolio/polarity.jpg)
+
+This brought about the question of whether the sentiment analysis was unsuccessful, or whether this topic wasn't as contentious as we had originally thought. One reason for the large number of neutral tweets could be due to the fact that we had not specifically filtered out tweets from news sources. Generally speaking, news is presented in neutral or objective language, which certainly would impact these scores. Removing data from known news sources is a consideration for future studies.
+
+We decided to validate our findings in the literature, and looked to similar studies to compare. We were able to find several studies ((1)[mdpi.com/2078-2489/12/5/204], [2](https://www.hindawi.com/journals/cmmm/2021/4321131/), [3](https://pmj.bmj.com/content/early/2021/08/08/postgradmedj-2021-140685), [4](https://www.jmir.org/2022/2/e31726/)) that corroborated our findings, and confirmed a largely positive or neutral sentiment. That, coupled with steady [global vaccination rates](https://ourworldindata.org/covid-vaccinations), affirms that our findings are valid. It is worthwhile to note however, that sentiments do vary by region and by the vaccine manufacturer.
+
+In the context of this dataset, the general sentiment is positive and neutral.
+
+
 #### Have sentiments changed throughout the pandemic and do pandemic milestones impact opinions?
 
 
