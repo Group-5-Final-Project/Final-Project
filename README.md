@@ -152,7 +152,7 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 ### Accuracy Score & Confusion Matrices
 
-Generally speaking, the [baseline sentiment accuracy rate](https://www.lexalytics.com/lexablog/sentiment-accuracy-baseline-testing) for this type of analysis is between 80-85%, and therefore, we set a target of `85%` accuracy for our model.
+The [baseline sentiment accuracy rate](https://www.lexalytics.com/lexablog/sentiment-accuracy-baseline-testing) for this type of analysis is between 80-85% [(second source)](https://aclanthology.org/2020.lrec-1.806.pdf), and therefore, we set a target of `85%` accuracy for our model.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
@@ -179,9 +179,13 @@ For future iterations, in addition to fitting the model with more features and a
 
 ## RESULTS & ANALYSIS
 
-The results of this analysis are displayed visually on our dashboard, linked below. A detailed analysis will be provided shortly.
+The results of this analysis are displayed visually on our dashboard, linked below, and the following is the corresponding code:
 
-![alt_text](https://user-images.githubusercontent.com/89050277/152702864-86d5dbc6-0050-4352-b33f-344cda7d4e7f.jpg)
+* [Machine Learning Model Final_With Plots_And Classification1.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Machine%20Learning%20Model%20Final_With%20Plots_And%20Classification1.ipynb)- machine learning, polarity, word clouds 
+
+* [Hashtag Analysis.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Hashtag%20Analysis.ipynb)- an analysis of hashtags
+
+* [Most Polarizing.ipynb](https://github.com/Group-5-Final-Project/Final-Project/blob/6796fef42bc150c6d64f59c2fd5bbf467495133b/Most%20Polarizing.ipynb)- finding the top tweets in each sentiment category
 
 
 ## DATABASE
