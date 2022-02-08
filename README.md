@@ -165,14 +165,17 @@ The model’s accuracy score is `88.50`, meaning that it will accurately predict
 Having a look at the classification report, it appears that although the overall precision and recall scores are sufficient, the least "precise" category appears to be `negative`, which may be related to tonality. This is indicative that this area may require further review or training, or perhaps a most robust training set.
 
 ### Confusion Matrices
+Confusion matrices of final supervized learning model, reinforces the confidence in the model.
 
-<p align="center">
+<p float="left">
  <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/ead92a49acbadde321d179766a6e08b682b0f351/assets/img/portfolio/confusion_matrixA.png"/>
- </p>
-<p align="center">
  <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/ead92a49acbadde321d179766a6e08b682b0f351/assets/img/portfolio/confusion_matrixB.png"/>
  </p>
  
+Results of confusion matririces suggests very high accuracy categorizing positive (93%) and neutral (88%) sentiments, however for ‘negative’ class accuracy is at 77%. Although, model doesnot predict 'negative' sentiment with high accuracy compared to, ‘positive’ and ‘neutral’, it does satisfy its goal of predicting overall sentiment towards vaccine with high level of accuracy. 
+
+For, future iterations, model can be fitted with more features to analyse to improve overall accuracy score. As an illustration, refined location data retrived from twitter api may significantly help the model to predict sentiment, as geo-political environment of region greatly affects the sentiments of its residents.
+
 ## RESULTS & ANALYSIS
 
 The results of this analysis are displayed visually on our dashboard, linked below. A detailed analysis will be provided shortly.
