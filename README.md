@@ -150,32 +150,32 @@ The addition of `CountVectorizer` tremendously improved the accuracy score of th
 
 **Output Labels:** `Positive`, `Neutral`, `Negative`
 
-### Accuracy Score
+### Accuracy Score & Confusion Matrices
+
+Generally speaking, the [baseline sentiment accuracy rate](https://www.lexalytics.com/lexablog/sentiment-accuracy-baseline-testing) for this type of analysis is between 80-85%, and therefore, we set a target of `85%` accuracy for our model.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89050277/152616702-61eb6669-1603-42a3-91fd-c8b53ecfed46.jpg"/>
 </p>
 
-The model’s accuracy score is `88.50`, meaning that it will accurately predict a tweet's sentiment `88.5%` of the time. As we are trying to gauge an approximate distribution of vaccine sentiments, this accuracy score is sufficient for this type of analysis.
+The model’s actual accuracy score is `88.50`, meaning that it will accurately predict a tweet's sentiment `88.5%` of the time. As we are trying to gauge an approximate distribution of vaccine sentiments, and this exceeds the target, the accuracy score is sufficient for this type of analysis.
 
 <p align="center">
    <img src= "https://user-images.githubusercontent.com/89050277/152700167-1d84d3bf-b437-426e-8264-2106151f1c43.jpg"/>
  </p>
  
-Having a look at the classification report, it appears that although the overall precision and recall scores are sufficient, the least "precise" category appears to be `negative`, which may be related to tonality. This is indicative that this area may require further review or training, or perhaps a most robust training set.
+Having a look at the classification report, it appears that although the overall precision and recall scores are sufficient, the least "precise" category appears to be `negative`, which may be related to tonality. This is indicative that this area may require further review or training, or perhaps a most robust training set. Another consideration would be to employ resampling techniques (such as SMOTE) to balance the dataset.
 
-### Confusion Matrices
-
-The confusion matrices below reinforce our confidence in the model.
+The confusion matrices below further highlight this point.
 
 <p float="left">
  <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/ead92a49acbadde321d179766a6e08b682b0f351/assets/img/portfolio/confusion_matrixA.png"/>
  <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/ead92a49acbadde321d179766a6e08b682b0f351/assets/img/portfolio/confusion_matrixB.png"/>
  </p>
  
-The results indicate high accuracy in categorizing positive (93%) and neutral (88%) sentiments, however for the ‘negative’ class, the accuracy is at 77%, which may be due to the imbalanced dataset. Despite the lower accuracy, overall, the model does satisfy its goal of predicting sentiments.
+The matrices indicate higher accuracy in categorizing positive (93%) and neutral (88%) sentiments, however for the ‘negative’ class, the accuracy is only 77%, which again, may be due to the imbalanced dataset, as stated above. Despite the lower accuracy, overall, the model does satisfy its goal of predicting sentiments.
 
-For future iterations, the model can be fitted with more features to improve the overall accuracy score, or resampling techniques can be utilized to balance the dataset.
+For future iterations, in addition to fitting the model with more features and applying resampling techniques, a [domain-specific dictionary](https://aclanthology.org/U11-1009.pdf) can be created and utilized in the training steps. Certain terms have significant meanings depending on the context and subject in which they are, and so, including this level of detail may improve the accuracy of the model.
 
 ## RESULTS & ANALYSIS
 
