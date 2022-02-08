@@ -166,6 +166,13 @@ Having a look at the classification report, it appears that although the overall
 
 ### Confusion Matrices
 
+<p align="center-left">
+ <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/c3d5f7c77f6e4dc50e3025d3d28bbf8f7b268293/assets/img/portfolio/confusion_matrix1.png"/>
+ </p>
+<p align="center-rightt">
+ <img src="https://github.com/Group-5-Final-Project/Final-Project/blob/c3d5f7c77f6e4dc50e3025d3d28bbf8f7b268293/assets/img/portfolio/confusion_matrix2.png"/>
+ </p>
+ 
 ## RESULTS & ANALYSIS
 
 The results of this analysis are displayed visually on our dashboard, linked below. A detailed analysis will be provided shortly.
