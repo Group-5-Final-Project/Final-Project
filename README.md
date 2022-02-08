@@ -4,7 +4,7 @@
 
 The emergence of the Coronavirus pandemic has normalized vaccines to become a part of everyday discourse, as global efforts to increase vaccination rates continue. Considered to have an integral role in managing the pandemic, governments, employers, and other organizations have either implemented or considered vaccine mandates, and this has possibly become the most contentious topic in the last couple of years.
 
-As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well-predate COVID, however given how pervasive vaccine discourse has become, they seem to be on the rise. Understanding the causes and levels of vaccine hesitance is an important first step in addressing the factors that prevent people from getting vaccinated.
+As expected, there are varying opinions about vaccines, which range from their safety or effectiveness, to whether the mandates infringe on human rights. Anti-vaxx sentiments well-predate COVID, however given how pervasive vaccine discourse has become, they seem to be on the rise. Understanding the causes and levels of vaccine hesitancy is an important first step in addressing the factors that prevent people from getting vaccinated.
 
 For this project, we took to Twitter to gather vaccine sentiments from the beginning of the pandemic to present, in an effort to address the following questions:
 
@@ -45,7 +45,7 @@ Due to Twitter API limitations, and in order to continue with this project, we d
 
 [Data Set 1](https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets?select=vaccination_all_tweets.csv) | [Data Set 2](https://www.kaggle.com/kaushiksuresh147/covidvaccine-tweets)
 
-Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from **March 11, 2020** to **January 14, 2022**. Still, the data required a bit of cleaning to remove duplicates and redundancies. The tweets from these datasets are taken from the start of the pandemic (around March 2020) to present, and all contain the word `vaccine`. Below is a summary of how the data was processed for analysis (in Jupyter Notebook or Google Colab, using Python):
+Fortunately, both datasets were formatted similarly, and combined, contain over `400,000` usable entries that span from **March 11, 2020** to **January 14, 2022**. Still, the data required a bit of cleaning to remove duplicates and redundancies. The tweets from these datasets are taken from the start of the pandemic (around March 2020) to present, and all contain the word (or hashtag) `vaccine`. The first dataset also includes tweets about specific vaccine manufacturers. Below is a summary of how the data was processed for analysis (in Jupyter Notebook or Google Colab, using Python):
 
 1. Both CSVs were imported as dataframes (DFs)
 2. Unnecessary columns were dropped, so both DFs had identical structures  
